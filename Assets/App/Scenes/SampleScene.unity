@@ -1793,6 +1793,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4765304974377415509, guid: 127b58748b0c9ee4a9664971cc973db6,
+        type: 3}
+      propertyPath: m_Antialiasing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765304974377415509, guid: 127b58748b0c9ee4a9664971cc973db6,
+        type: 3}
+      propertyPath: m_RenderPostProcessing
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4863934938557236851, guid: 127b58748b0c9ee4a9664971cc973db6,
         type: 3}
       propertyPath: m_Name
