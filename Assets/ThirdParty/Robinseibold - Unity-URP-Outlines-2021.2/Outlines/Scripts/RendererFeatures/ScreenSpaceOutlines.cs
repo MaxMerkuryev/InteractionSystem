@@ -11,6 +11,7 @@ public class ScreenSpaceOutlines : ScriptableRendererFeature {
     private class ScreenSpaceOutlineSettings {
 
         [Header("General Outline Settings")]
+        [ColorUsage(true, true)]
         public Color outlineColor = Color.black;
         [Range(0.0f, 20.0f)]
         public float outlineScale = 1.0f;
