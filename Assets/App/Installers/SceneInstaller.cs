@@ -1,5 +1,6 @@
 ﻿using Zenject;
 using UnityEngine;
+using Interactions;
 
 public class SceneInstaller : MonoInstaller {
 	[SerializeField] private InteractionHandler _interactionHandler;	
